@@ -1,5 +1,5 @@
 import React from "react";
-
+import AuthFlow from "./components/AuthFlow";
 export default function Main() {
-  return <div>Main</div>;
+  return <div>{<AuthFlow />}</div>;
 }

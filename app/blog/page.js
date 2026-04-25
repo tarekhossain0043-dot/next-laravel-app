@@ -11,7 +11,7 @@ export default async function BlogLIst() {
   const getBlogs = await getBlogList();
 
   return (
-    <div>
+    <div className="py-10 px-10">
       <table className="table table-auto">
         <thead className="table-header-group">
           <tr className="table-row">
